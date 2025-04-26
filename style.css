@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    height: 100vh;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+body {
+    background-color: black;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.sign button {
+    border: none;
+    border-radius: 5px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+.a {
+    border: none;
+    border-radius: 5px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-top: 2px;
+    cursor: pointer;
+    width: 200px;
+}
+.b{
+    font-size: 1rem;
+    height: 20px;
+    width: 300px;
+    padding: 20px 50px ;
+    background: transparent;
+    border: 1px solid rgb(229, 9, 20);
+    color: inherit;
+}
+.search{
+    display: flex;
+    gap: 20px;
+}
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero> :first-child {
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.line{
+    background-color: grey;
+    width: 100%;
+    height: 10px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+       margin: auto;
+    align-items: center;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.secImg img{
+    max-width: 30vw;
+}
+.line1{
+    margin-top: 100px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+.forth{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+.fifth h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin: 40px 0px;
+}
+.boxy:hover{
+    background-color: #414141;
+}
+.boxy{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 48, 48);
+    max-width: 75vw;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    padding: 24px;
+    margin: 15px auto;
+}
+.boxy svg{
+    filter: invert(1);
+}
+.secl{
+    text-align: center;
+    margin-top: 30px;
+}
+.atim{
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 50px;
+    
+}
+.footeritem a{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footeritem{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
